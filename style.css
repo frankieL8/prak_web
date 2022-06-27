@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background: url(https://funart.pro/uploads/posts/2021-04/1618440641_42-funart_pro-p-oboi-fon-temno-fioletovii-fon-42.jpg) 
+    no-repeat;
+    background-size: 100%;
+    padding: 80px 0;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: large;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    min-height: 600px;
+    border: 5px solid black;
+    background: black;
+} 
+
+.header {
+    display: flex;
+    height: 180px;
+    
+}
+.title-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    background: url("https://i.pinimg.com/736x/6d/6f/92/6d6f92cb0bfa825be8c41bc8303b86c8.jpg") no-repeat center center
+    / cover;
+    margin-right: 10px;
+}
+
+.userpic {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    background: url(https://sun9-60.userapi.com/impg/eFotjYj8vA8bTNsVRKOX6LSXcE5U3ttor0Np1Q/yKLQRaHhiWM.jpg?size=1080x1080&quality=96&sign=be7bab572af8a4241c3854c509327889&type=album)
+    no-repeat bottom 20% center / cover ;
+}
+
+.content-wrapper {
+    display: flex;
+    color: white;
+}
+
+.tabs__items {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    padding: 15px 25px;
+    padding-left: 25%;
+}
+.tabs__items a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: #b6b6fd;
+    padding: 15px 25px;
+    background-color: rgb(65, 13, 126);
+    border-bottom: 5px solid #333363;
+    align-items: center;
+}
+.tabs_body {
+    display: flex;
+    color: white;
+}
+.tabs_block {
+    color: white;
+    display: none;
+    max-width: 100%;
+    position: relative;
+    top: 60px;
+}
+.tabs nav a:hover {
+    background-color: rgb(37, 7, 71);
+}
+.tabs_block:target {
+    display: flex;
+}
+
+.content {
+    width: 75%;
+    font-size: large;
+    padding: 20px;
+}
+.sidebar {
+    text-align: center;
+    width: 25%;
+    font-size: large;
+    padding: 20px;
+}
+
+.skills li {
+    margin: 20px 0;
+    transition: transform .5s ease;
+    cursor: default;
+}
+.skills li:hover {
+    transform: translateX(10px);
+}
+
+.content_2 {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    width: 100%;
+    font-size: large;
+    padding: 20px;
+}
+.content_2 a {
+    position: relative;
+    padding: 0 150px;
+    top: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    color: hsl(337, 55%, 45%)
+}
+.content_2 a:hover {
+    text-decoration: underline;
+}
+
+.content_3 {
+    position: relative;
+    white-space: nowrap;
+    width: 100%;
+    left: 100px;
+    top: 100px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
