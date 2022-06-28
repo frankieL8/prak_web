@@ -4,8 +4,7 @@ body {
     font-family: 'Noto Sans', sans-serif;
     background: url(https://funart.pro/uploads/posts/2021-04/1618440641_42-funart_pro-p-oboi-fon-temno-fioletovii-fon-42.jpg) 
     no-repeat;
-    background-size: 100%;
-    padding: 80px 0;
+    overflow-x: hidden;
 }
 
 h2 {
@@ -17,17 +16,18 @@ h2 {
 }
 
 .container {
+
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 80px auto;
     min-height: 600px;
     border: 5px solid black;
     background: black;
+    
 } 
 
 .header {
     display: flex;
     height: 180px;
-    
 }
 .title-block {
     display: flex;
